@@ -7,7 +7,7 @@ Modern configuration file is more and more complex, flexible and readable, but *
 **Supported files**: ini, yaml, json & cfg
 ### Install
 ```bash
-pip install conf_loader
+pip install smart-config
 ```
 
 ### Basic usage
