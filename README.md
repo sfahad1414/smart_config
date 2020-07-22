@@ -1,4 +1,4 @@
-# ConfigLoader | ![Build](https://github.com/sfahad1414/smart_config/workflows/Build/badge.svg) ![Latest Version](https://pypip.in/version/smart-config/badge.svg) ![Versions](https://img.shields.io/pypi/pyversions/smart-config.svg) ![License](https://img.shields.io/pypi/l/smart-config.svg)
+# Smart-Config | ![Build](https://github.com/sfahad1414/smart_config/workflows/Build/badge.svg) ![Latest Version](https://pypip.in/version/smart-config/badge.svg) ![Versions](https://img.shields.io/pypi/pyversions/smart-config.svg) ![License](https://img.shields.io/pypi/l/smart-config.svg)
 Simple configuration file loader
 
 ### Why
