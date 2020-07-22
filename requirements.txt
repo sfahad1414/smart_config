@@ -2,5 +2,5 @@ pyyaml
 toml
 pytest
 pytest-cov
-black
+loguru
 wheel
