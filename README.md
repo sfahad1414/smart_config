@@ -1,4 +1,4 @@
-# ConfigLoader | ![Build](https://github.com/sfahad1414/conf_loader/workflows/Build/badge.svg) ![Latest Version](https://pypip.in/version/conf_loader/badge.svg) ![Versions](https://img.shields.io/pypi/pyversions/conf_loader.svg) ![License](https://img.shields.io/pypi/l/conf_loader.svg)
+# ConfigLoader | ![Build](https://github.com/sfahad1414/smart_config/workflows/Build/badge.svg) ![Latest Version](https://pypip.in/version/smart-config/badge.svg) ![Versions](https://img.shields.io/pypi/pyversions/smart-config.svg) ![License](https://img.shields.io/pypi/l/smart-config.svg)
 Simple configuration file loader
 
 ### Why
@@ -34,7 +34,7 @@ DATABASE=Demo
 parse file with `ConfigLoader`
 
 ```python
-from conf_loader import ConfigLoader
+from smart_config import ConfigLoader
 
 # read file system.yaml and parse config
 env = ConfigLoader('system.yaml').get_config()
