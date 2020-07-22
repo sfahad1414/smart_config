@@ -1,4 +1,4 @@
-# ConfigLoader |
+# ConfigLoader | [Python application](https://github.com/sfahad1414/configloader/workflows/Python Application/badge.svg)
 Simple configuration file loader
 
 ### Why
