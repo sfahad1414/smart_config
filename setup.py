@@ -9,7 +9,7 @@ setup(
     name="conf_loader",
     packages=find_packages(),
     version=__version__,
-    url="https://github.com/sfahad1414/configloader",
+    url="https://github.com/sfahad1414/conf_loader",
     license="MIT",
     author="Fahad Ali Shaikh",
     author_email="shaikhfahad2526@gmail.com",
