@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-from config_loader import __version__
+from conf_loader import __version__
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="config_loader",
+    name="conf_loader",
     packages=find_packages(),
     version=__version__,
     url="https://github.com/sfahad1414/configloader",

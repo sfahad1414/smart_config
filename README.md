@@ -7,7 +7,7 @@ Modern configuration file is more and more complex, flexible and readable, but *
 **Supported files**: ini, yaml, json & cfg
 ### Install
 ```bash
-pip install configloader
+pip install conf_loader
 ```
 
 ### Basic usage
@@ -34,7 +34,7 @@ DATABASE=Demo
 parse file with `ConfigLoader`
 
 ```python
-from config_loader import ConfigLoader
+from conf_loader import ConfigLoader
 
 # read file system.yaml and parse config
 env = ConfigLoader('system.yaml').get_config()
