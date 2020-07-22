@@ -103,12 +103,14 @@ class ConfigLoader:
                 raise Exception("Invalid value format!")
 
             try:
-                new_value = new_value.strip()
-                if new_value in ["True", "False"]:
-                    new_value = new_value.lower()
-                items[key] = json_loads(new_value)
+                if new_value:
+                    new_value = new_value.strip()
+                    if new_value in ["True", "False"]:
+                        new_value = new_value.lower()
+                    new_value = json_loads(new_value)
             except Exception as e:
-                print(e)
+                logger.info(e)
+            finally:
                 items[key] = new_value
 
         elif value.startswith("${") or value.endswith("}"):
