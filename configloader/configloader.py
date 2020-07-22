@@ -48,7 +48,7 @@ class ConfigLoader:
         file_extension = Path(file).suffix
         if file_extension not in self.SUPPORTED_FILES:
             raise Exception(
-                "Unsupported file format!. file format must be yaml, json, ini, toml"
+                "Unsupported file format!. file format must be yaml, json, ini, toml & cfg"
             )
         else:
             file_stream = open(file)
@@ -98,7 +98,7 @@ class ConfigLoader:
             elif values.__len__() == 1:
                 new_value = os.getenv(values[0], None)
                 if not new_value:
-                    logger.warning(f"Unable to find value in environment for key {key}")
+                    logger.warning("Unable to find value in environment for key "+key)
             else:
                 raise Exception("Invalid value format!")
 
