@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-from conf_loader import __version__
+from smart_config import __version__
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="conf_loader",
+    name="smart_config",
     packages=find_packages(),
     version=__version__,
     url="https://github.com/sfahad1414/conf_loader",
