@@ -1,5 +1,5 @@
 import pytest
-from configloader import ConfigLoader
+from config_loader import ConfigLoader
 import os
 from yaml import safe_load as yaml_load, safe_dump as yaml_dump
 from toml import load as toml_load, dump as toml_dump

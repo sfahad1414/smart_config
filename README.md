@@ -34,7 +34,7 @@ DATABASE=Demo
 parse file with `ConfigLoader`
 
 ```python
-from configloader import ConfigLoader
+from config_loader import ConfigLoader
 
 # read file system.yaml and parse config
 env = ConfigLoader('system.yaml').get_config()
