@@ -1,0 +1,6 @@
+pyyaml
+toml
+pytest
+pytest-cov
+black
+wheel

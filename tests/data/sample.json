@@ -1,0 +1,1 @@
+{"boolean": "${BOOLEAN_VALUE:True}", "env_val": "${ENV_VAL}", "float": "${FLOAT_VALUE:1.0}", "integer": "${INT_VALUE:1}", "plain": "value", "system": "${SYSTEM:testing}", "testing": {"demo": "${ENVIRONMENT_VARIABLE:default}"}}
