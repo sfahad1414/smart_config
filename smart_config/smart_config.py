@@ -7,7 +7,7 @@ from configparser import ConfigParser
 from json import load as json_load, loads as json_loads
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 class ConfigLoader:
