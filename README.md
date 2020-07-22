@@ -1,4 +1,4 @@
-# ConfigLoader | [Python application](https://github.com/sfahad1414/configloader/workflows/Python Application/badge.svg)
+# ConfigLoader | ![Build](https://github.com/sfahad1414/conf_loader/workflows/Build/badge.svg) ![Latest Version](https://pypip.in/version/conf_loader/badge.svg) ![Versions](https://img.shields.io/pypi/pyversions/conf_loader.svg) ![License](https://img.shields.io/pypi/l/conf_loader.svg)
 Simple configuration file loader
 
 ### Why
