@@ -28,7 +28,7 @@ class TestConfigLoader:
         os.environ['INT_VALUE'] = "2"
         os.environ['FLOAT_VALUE'] = "2.0"
         os.environ['BOOLEAN_VALUE'] = "False"
-        os.environ['env_val'] = "Value"
+        os.environ['ENV_VAL'] = "Value"
         data = ConfigLoader("./tests/data/sample.yaml").get_config()
         assert data['system'] == 'env_value'
         assert data['testing']['demo'] == 'value'
@@ -42,7 +42,7 @@ class TestConfigLoader:
         del os.environ['INT_VALUE']
         del os.environ['BOOLEAN_VALUE']
         del os.environ['FLOAT_VALUE']
-        del os.environ['env_val']
+        del os.environ['ENV_VAL']
 
     def test_load_configuration_invalid_value_yaml(self):
         old_data = yaml_load(open('./tests/data/sample.yaml'))
@@ -232,7 +232,7 @@ class TestConfigLoader:
         os.environ['INT_VALUE'] = "2"
         os.environ['FLOAT_VALUE'] = "2.0"
         os.environ['BOOLEAN_VALUE'] = "False"
-        os.environ['env_val'] = "Value"
+        os.environ['ENV_VAL'] = "Value"
         data = ConfigLoader("./tests/data/sample.json").get_config()
         assert data['system'] == 'env_value'
         assert data['testing']['demo'] == 'value'
@@ -246,7 +246,7 @@ class TestConfigLoader:
         del os.environ['INT_VALUE']
         del os.environ['BOOLEAN_VALUE']
         del os.environ['FLOAT_VALUE']
-        del os.environ['env_val']
+        del os.environ['ENV_VAL']
 
     def test_load_configuration_invalid_value_json(self):
         old_data = json_load(open('./tests/data/sample.json'))
